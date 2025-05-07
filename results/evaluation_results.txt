@@ -1,0 +1,3 @@
+english_to_arabic_bleu: 31.386979433366232
+arabic_to_english_bleu: 47.764698625197
+average_bleu: 39.57583902928162

@@ -49,11 +49,35 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+
+# Large model files
+models/bart-english-arabic-final/*.safetensors
+models/bart-english-arabic-final/pytorch_model.bin
+models/bart-english-arabic-final/tf_model.h5
+models/*/optimizer.pt
+models/*/scheduler.pt
+models/*/training_args.bin
+results/checkpoint-*/*.safetensors
+results/checkpoint-*/optimizer.pt
+results/checkpoint-*/scheduler.pt
+results/checkpoint-*/training_args.bin
 cover/
 
 # Translations
 *.mo
 *.pot
+
+# ML Models and Training Results
+models/*
+!models/.gitkeep
+!models/README.md
+results/*.png
+results/checkpoint-*/
+
+# Keep evaluation results text files
+!results/evaluation_results.txt
+!results/sample_translations.csv
+!results/bleu_scores.png
 
 # Django stuff:
 *.log
