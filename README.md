@@ -48,6 +48,10 @@ english-arabic-bidirectional-translation/
 │ ├── quick_start.md
 │ └── bart_model.md
 │
+├── screenshots/
+│ ├── english_to_arabic.png
+│ └── arabic_to_english.png
+│
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -96,6 +100,19 @@ english-arabic-bidirectional-translation/
    - Simple interface for bidirectional translation
    - Optimized model loading for faster startup
    - Hardware acceleration when available
+
+## GUI Features
+- Simple interface for bidirectional translation
+- Optimized model loading for faster startup
+- Hardware acceleration when available
+
+## Screenshots
+
+### English to Arabic Translation
+![English to Arabic Translation](screenshots/english_to_arabic.png)
+
+### Arabic to English Translation
+![Arabic to English Translation](screenshots/arabic_to_english.png)
 
 ## Performance Optimizations
 
